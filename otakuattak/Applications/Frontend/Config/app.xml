@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<definitions>
+    <define var="nombre_news" value="5" />
+    <define var="nombre_caracteres" value="200" />
+    <define var="view_nb" value="2"/>
+    <define var="nombreVideos" value="5" />
+    <define var="nombre_pages_max" value="6" />
+</definitions>
