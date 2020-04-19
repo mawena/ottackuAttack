@@ -1,2 +1,2 @@
 # ottackuAttack
-Juste un site de plus
+Un site pour les otakus par les otaku pour un meilleur expérience sur le web
