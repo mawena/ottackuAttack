@@ -11,7 +11,7 @@
                 <fieldset>
                     <legend id="<?php echo $comment['id']; ?>">
                         Posté par <strong> <?php echo htmlspecialchars($comment['auteur']); ?></strong> le <em><?php echo $comment['date']->format('d/m/Y à H/hi'); ?></em>
-                        <?php if ($user->isAuthenticated()) { ?> -<a href="admin/Comment-update-<?php echo $comment['id']; ?>"><img src="/images/update.png" width="30" alt="Modifier" /></a><?php } ?>
+                        <?php if ($user->isAuthenticated()) { ?> -<a href="admin/Comment-update-<?php echo $comment['id']; ?>"><img src="/images/update.png" width="30" alt="modifier" /></a><?php } ?>
                         <?php if ($user->isAuthenticated()) { ?> -<a href="admin/Comment-delete-<?php echo $comment['id']; ?>"><img src="/images/delete.png" width="30" alt="Supprimer" /></a><?php } ?>
                     </legend>
                     <p><?php echo nl2br(htmlspecialchars($comment['contenu'])) ?></p>
