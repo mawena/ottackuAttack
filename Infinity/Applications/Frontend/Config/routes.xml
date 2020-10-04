@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<routes>
+    <!-- Acceuil -->
+    <route url="/" module="Acceuil" action="index" />
+    <route url="/Acceuil" module="Acceuil" action="index" />
+    
+    <!-- News -->
+    <route url="/News" module="News" action="index" />
+    <route url="/News-([0-9]+)" module="News" action="show" vars="id"/>
+    
+    <!-- Commentaires -->
+    <route url="/Commenter-([0-9]+)" module="News" action="insertComment" vars="news" />
+    <route url="/Commenter-Videos-([0-9]+)" module="Videos" action="insertComment" vars="video" />
+
+    <!-- Videos -->
+    <route url="/Videos" module="Videos" action="index" />
+    <route url="/Videos-p-([0-9]+)" module="Videos" action="index" vars="page"/>
+    <route url="/Videos-([0-9]+)" module="Videos" action="show" vars="id"/>
+    
+    <!-- Mangas -->
+    <route url="/Mangas" module="Mangas" action="index" />
+</routes>
